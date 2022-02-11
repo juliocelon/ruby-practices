@@ -245,6 +245,6 @@ class TestCalculator < Minitest::Test
 
     def test_positive_numbers_sum()
         result = @cal.sum(3,4)
-        assert_equals result, 7
+        assert_equal result, 7
     end
 end
